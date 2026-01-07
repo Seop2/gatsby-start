@@ -1,11 +1,11 @@
 // Step 1: Import React
-import { Link } from "gatsby";
+
 import * as React from "react";
 import Layout from "../components/layout";
 
 // Step 2: Define your component
 const IndexPage = () => {
-  return <Layout pageTitle={"Home page"} />;
+  return <Layout pageTitle={"Home page"} children={"gatsby test"} />;
 };
 
 // You'll learn about this in the next task, just copy it for now
